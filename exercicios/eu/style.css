@@ -1,0 +1,26 @@
+@charset
+
+* {
+    
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(0, 0, 255), rgb(24, 24, 238), rgb(66, 66, 224));
+}
+
+main {
+    background-color: rgb(76, 0, 255);
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(136, 109, 93, 0.719);
+    width: 600px;
+    padding: 20px;
+    margin: auto;
+}
+
+h1 {
+    color: rgb(218, 109, 21);
+    text-align: center;
+    text-shadow: 1px 1px 0px rgba(165, 100, 8, 0.671);
+}
+
+
