@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th.cinzas {
+    border: 1px solid black;
+    padding: 5px 20px 5px 20px;
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+}
+
+th.branco {
+    border: 1px solid black;
+    font-weight: bold;
+}
+
+th#delado {
+    text-align: left;
+}
+
+td {
+    border: 1px solid black;
+    padding: 5px 18px 5px 18px;
+    font-weight: bold;
+    text-align: center;
+}
