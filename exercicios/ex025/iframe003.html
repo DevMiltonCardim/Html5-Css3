@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>uso de iframe</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela {
+            width: 95vw;
+            height: 400px;
+            border: 2px soli black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptatum, dignissimos earum nisi reprehenderit voluptate quae cupiditate amet quia doloribus dolore tempora tenetur! Alias magnam excepturi eum quod laboriosam odit!</p>
+
+    <ul>
+        <li><a href="Paginas-extras/pag001.html" 
+            target="frame">Primeira 
+            página</a></li>
+        <li><a href="Paginas-extras/pag002.html" target="frame">Segunda 
+            página</a></li>
+        <li><a href="Paginas-extras/pag003.html" target="frame">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis saepe aperiam accusamus excepturi quo debitis consequuntur blanditiis vel officia neque adipisci cupiditate delectus recusandae ullam similique quis totam, hic sequi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate in hic deserunt eos amet necessitatibus autem, libero enim consequuntur provident velit tempore cumque rem fuga, eum dolorem dignissimos aut nihil.</p>
+
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima!</h1> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil rerum eius eveniet maiores et adipisci error id qui vitae, consectetur, magni numquam odio beatae in, quae consequatur temporibus voluptas nulla.</p>">
+        <p>
+            Infelizmente seu navegador não é compativel 
+            com isso.
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, veritatis dolor nihil nisi placeat, vel excepturi debitis, magni commodi corporis maiores laborum at! Nihil aliquam ratione, repellat tempore accusantium dolor. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore incidunt beatae repellat blanditiis consectetur maiores cupiditate voluptate ut, exercitationem nobis accusamus suscipit qui nemo modi praesentium nostrum vel, at nisi!</p>
+    </iframe>
+</body>
+</html>
