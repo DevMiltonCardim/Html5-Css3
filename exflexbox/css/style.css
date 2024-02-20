@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+:root {
+    --amarelo: #F5E301;
+    --roxo-claro: #8958F5;
+    --roxo: #5635A0;
+    --roxo-escuro: #24036b;
+    --fonte-principal: "Sriracha";
+}
+
+* {
+    font-family: var(--fonte-principal);
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: linear-gradient(to right, var(--amarelo), var(--roxo-claro), var(--roxo), var(--roxo-escuro));
+}
+
+form {
+    border: 1px solid black;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.9em;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.589);
+}
